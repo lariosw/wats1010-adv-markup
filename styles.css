@@ -1,1 +1,179 @@
 /* Styles for the Advanced Markup assignment. */
+
+body { 
+    margin: 0 30px 0 55px;
+}
+
+header {
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px white;
+    text-align: center;
+    font-family: san-serif;
+}
+body h1 {
+    border: 5px solid black;
+    width: 700px;
+    margin: 15px auto;
+    padding: 50px 0 50px 0;
+    background-image: url(backgrounds/backgroundpoe1.jpg);
+}
+
+h2 {
+    font-family: cursive;
+    font-weight:1000;
+    border: 2px solid black;
+    background-image:url(backgrounds/backgroundpoe2.jpg);
+    text-decoration: underline; 
+    color:antiquewhite;
+    text-align:center;
+}
+section h2 {
+    width: 300px;
+    margin-top: 50px; 
+}
+
+nav ul li {
+    display: inline;
+    font-size: medium;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2px;
+    background-color: antiquewhite;
+}
+/* anchor styles */
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+a.active {
+    font-weight: bold;
+}
+#sidebar {
+    width: 250px;
+    float: right;
+    background-image: url(backgrounds/paperbackground.jpg);
+    color: black;
+    margin: 20px;
+    padding: 40px 50px 40px 50px;
+    border: 2px solid black;
+    border-radius: 50%
+}
+table {
+    text-align: left; 
+    border: 2px solid black;
+    border-spacing: 0;
+    border-collapse:collapse;
+    margin: 0 0 40px 0;
+}
+td,th {
+    border: 2px solid black;
+    padding: 3px;
+    margin: 0px;
+}
+dt {
+    font-weight: bold; font-style:italic; text-decoration:underline; font-size: large;
+}
+dd {
+    font-size: small;
+}
+
+/* aside styles */
+aside h2 {
+    font-family: cursive;
+    width: 174px;
+    margin: 31px auto 0 auto;
+}
+
+aside #sidebar {
+    margin: 0;
+}
+aside p {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+/* sidebar styles */
+
+#sidebar ul li {
+    text-align: center;
+}
+#sidebar ul {
+    padding: 5px;
+    list-style: none;
+}
+.bio-photo img {
+    float:left;
+    border: 5px solid black;
+    margin: 20px 20px 0 4px;
+    width: 266px;
+}
+
+p.copyright {
+    float: left;
+    font-size: small;
+    margin: 20px;
+}
+
+/*content styling*/
+#content .middle-content {
+    text-align: justify;
+}
+#content ul li {
+    list-style: none;
+}
+#content ul li:first-child::first-letter, .poem li:nth-child(4)::first-letter, .poem li:nth-child(7)::first-letter, .poem li:nth-child(9)::first-letter, .poem li:nth-child(13)::first-letter, .poem li:nth-child(15)::first-letter, .poem li:nth-child(17)::first-letter, .poem li:nth-child(18)::first-letter {
+    color: #804000;
+    font-family: cursive;
+    font-size: 30px;
+}
+#content p.caption {
+    text-align: justify;
+    width: 200px;
+    margin-right: 75px;
+    font-size: smaller;
+    font-style: italic;
+    float: left;
+}
+.bibliography {
+    list-style-type: decimal;
+    font-style: italic
+    font-size: small;
+    float: left;
+    margin: 20px;
+}
+ul.bibliography {
+    font-size: small;
+    font-style: italic;
+}
+ul.poem {
+    margin: 60px 0 100px 0;
+    text-align: center;
+    line-height: 20px;
+    color: #804000;
+}    
+p.smalltext {
+    text-align: left;
+    font-size: small;
+    font-style:italic;
+    margin: 10px 0 50px 0;
+}
+
+/*social links styling*/
+.social-links {
+    text-align:center;
+}
+.social-links li {
+    display: inline-block;
+}
+
+.social-links p {
+    margin: 0;
+}
+.social-links .email {
+    margin-bottom: 10px;
+}
